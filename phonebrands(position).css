@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav {
+    background-color: darkslategray;
+    /* position fixed aakiyal ath avdenne nikkum, navigation tagina ettavum kooduthal use akar, scroll cheythalum position fixed akiyal ath avdenne nikkum */
+    position: fixed;
+    z-index: 1;
+    /* threshold */
+    left: 0;
+    right: 0;
+}
+
+nav ul li {
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: 1000;
+    text-align: center;
+}
+
+section > div {
+    padding: 5rem 0.75rem;
+}
+section > div {
+    display: inline-block;
+}
+
+.company {
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+    position: sticky;
+    top: 110px;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+}
+
+.company > div {
+
+    position: relative;
+    border: 1px solid darkblue;
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    padding: 1rem 2.5rem;
+
+}
+
+.company > div > img {
+    position: absolute;
+    /* negative value koduthond aa image mukalott poyi */
+    top: -30px;
+    /* to centering an image */
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+}
+
+
+.content {
+    width: 70%;
+    color: white;
+}
+
+.content > p {
+    padding-block-end: 3rem;
+    text-align: justify;
+}
+
+.iphone {
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 50%;
+    
+}
+.samsung {
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    top: -10px;
+    width: 30%;
+}
+
+.oppo {
+    width: 30%;
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 6px 6px 6px red;
+    padding-block-start: 6rem;
+    font-size: 70px;
+    color: white
+    
+ 
+}
